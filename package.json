@@ -1,0 +1,35 @@
+{
+  "name": "most-beat-scheduler",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "module": "build/index.mjs",
+  "repository": "https://github.com/camshaft/most-beat-scheduler.git",
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@aureooms/js-integer": "^3.0.0",
+    "@aureooms/js-integer-big-endian": "aureooms/js-integer-big-endian",
+    "@most/prelude": "^1.7.0",
+    "@most/types": "^1.0.0",
+    "@types/big.js": "^4.0.3",
+    "@types/node": "^9.6.0",
+    "babel-runtime": "^6.26.0",
+    "big.js": "^5.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "rollup": "^0.57.1",
+    "rollup-plugin-auto-external": "^1.2.0",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-typescript2": "^0.12.0",
+    "tslint": "^5.9.1",
+    "tslint-config-standard": "^7.0.0",
+    "tslint-eslint-rules": "^5.1.0",
+    "tslint-microsoft-contrib": "^5.0.3",
+    "typescript": "^2.7.2"
+  }
+}
